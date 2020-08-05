@@ -7,7 +7,7 @@
 //
 //  2014년 4월 16일
 //  잊지 않겠습니다. 기억하겠습니다.
-//  
+//  ₩       
 
 import Cocoa
 import SwiftUI
