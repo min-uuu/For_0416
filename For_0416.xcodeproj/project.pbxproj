@@ -6,23 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		FDBFD03024DAD80300448AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFD02F24DAD80300448AA5 /* AppDelegate.swift */; };
-		FDBFD03224DAD80300448AA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFD03124DAD80300448AA5 /* ContentView.swift */; };
-		FDBFD03424DAD80600448AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBFD03324DAD80600448AA5 /* Assets.xcassets */; };
-		FDBFD03724DAD80600448AA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBFD03624DAD80600448AA5 /* Preview Assets.xcassets */; };
-		FDBFD03A24DAD80600448AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBFD03824DAD80600448AA5 /* Main.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		FDBFD02C24DAD80300448AA5 /* For_0416.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = For_0416.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBFD02F24DAD80300448AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDBFD03124DAD80300448AA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FDBFD03324DAD80600448AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDBFD03624DAD80600448AA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FDBFD03924DAD80600448AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDBFD03B24DAD80600448AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDBFD03C24DAD80600448AA5 /* For_0416.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = For_0416.entitlements; sourceTree = "<group>"; };
+		FDBFD02C24DAD80300448AA5 /* For_0416.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = For_0416.app; path = /Users/minyou/Documents/For_0416_legecy/build/Debug/For_0416.app; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,39 +24,7 @@
 		FDBFD02324DAD80300448AA5 = {
 			isa = PBXGroup;
 			children = (
-				FDBFD02E24DAD80300448AA5 /* For_0416 */,
-				FDBFD02D24DAD80300448AA5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		FDBFD02D24DAD80300448AA5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FDBFD02C24DAD80300448AA5 /* For_0416.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FDBFD02E24DAD80300448AA5 /* For_0416 */ = {
-			isa = PBXGroup;
-			children = (
-				FDBFD02F24DAD80300448AA5 /* AppDelegate.swift */,
-				FDBFD03124DAD80300448AA5 /* ContentView.swift */,
-				FDBFD03324DAD80600448AA5 /* Assets.xcassets */,
-				FDBFD03824DAD80600448AA5 /* Main.storyboard */,
-				FDBFD03B24DAD80600448AA5 /* Info.plist */,
-				FDBFD03C24DAD80600448AA5 /* For_0416.entitlements */,
-				FDBFD03524DAD80600448AA5 /* Preview Content */,
-			);
-			path = For_0416;
-			sourceTree = "<group>";
-		};
-		FDBFD03524DAD80600448AA5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FDBFD03624DAD80600448AA5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +71,7 @@
 				Base,
 			);
 			mainGroup = FDBFD02324DAD80300448AA5;
-			productRefGroup = FDBFD02D24DAD80300448AA5 /* Products */;
+			productRefGroup = FDBFD02324DAD80300448AA5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -132,9 +85,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBFD03A24DAD80600448AA5 /* Main.storyboard in Resources */,
-				FDBFD03724DAD80600448AA5 /* Preview Assets.xcassets in Resources */,
-				FDBFD03424DAD80600448AA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,23 +95,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBFD03224DAD80300448AA5 /* ContentView.swift in Sources */,
-				FDBFD03024DAD80300448AA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FDBFD03824DAD80600448AA5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDBFD03924DAD80600448AA5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDBFD03D24DAD80600448AA5 /* Debug */ = {
