@@ -5,6 +5,8 @@
 //  Created by 민유 on 2020/08/07.
 //  Copyright © 2020 민유. All rights reserved.
 //
+//  우리가 기억하는 한
+//  진실은 절대 침몰하지 않습니다.
 
 import Cocoa
 
