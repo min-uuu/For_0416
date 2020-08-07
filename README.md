@@ -71,3 +71,9 @@ __우리는 결코 포기하지 않을 것입니다.__
 1. 2016년 4월 16일부터 오늘까지의 날짜 표시 추가
 2. 코드 수정
 3. 디자인 수정
+
+#
+
+### 참조
+raywenderlich.com
+<br> [링크](https://www.raywenderlich.com/450-menus-and-popovers-in-menu-bar-apps-for-macos)
