@@ -14,7 +14,6 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
         
     // 메뉴 바 생성
-//    let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.squareLength)
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
@@ -23,11 +22,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let startDate = dateFormatter.date(from: "2014-04-16")!
         let currentDate = Date()
         let dday = Calendar.current.dateComponents([.day], from: startDate, to: currentDate).day!
-                
+
       if let button = statusItem.button {
         button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
         button.imagePosition = NSControl.ImagePosition.imageLeft
         button.title = "+\(dday)"
+        
+//         타이틀 표시 코드
+//        button.title = "For_0416"
+        
         button.action = #selector(togglePopover(_:))
       }
         
