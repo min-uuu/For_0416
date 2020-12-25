@@ -77,11 +77,11 @@
             <objects>
                 <viewController storyboardIdentifier="QuotesViewController" id="XfG-lQ-9wD" customClass="QuotesViewController" customModule="For_0416" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="284" height="90"/>
+                        <rect key="frame" x="0.0" y="0.0" width="286" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zg-bS-oXJ">
-                                <rect key="frame" x="101" y="55" width="73" height="19"/>
+                                <rect key="frame" x="103" y="57" width="73" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" title="For_0416" id="CML-xM-Ljp">
                                     <font key="font" metaFont="system" size="16"/>
@@ -90,7 +90,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="06L-vv-xLh">
-                                <rect key="frame" x="101" y="34" width="105" height="16"/>
+                                <rect key="frame" x="103" y="37" width="105" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="우리가 기억하는 한 " id="CQb-81-AWa">
                                     <font key="font" metaFont="system"/>
@@ -99,7 +99,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QQd-Je-mG4">
-                                <rect key="frame" x="101" y="17" width="165" height="16"/>
+                                <rect key="frame" x="103" y="20" width="165" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="그들은 절대 침몰하지 않습니다." id="I1S-dt-w6p">
                                     <font key="font" metaFont="system"/>
@@ -108,7 +108,7 @@
                                 </textFieldCell>
                             </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yF-uB-Qkz">
-                                <rect key="frame" x="20" y="15" width="60" height="60"/>
+                                <rect key="frame" x="27" y="20" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Popover Image" id="poL-95-tFc"/>
                             </imageView>
@@ -117,7 +117,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="134"/>
+            <point key="canvasLocation" x="126" y="137"/>
         </scene>
     </scenes>
     <resources>
