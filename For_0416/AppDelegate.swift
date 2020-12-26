@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
     // 메뉴 바 생성
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
-    let everyMinuteTimer = Timer.scheduledTimer(timeInterval: 3600, target: self,
+    let everyMinuteTimer = Timer.scheduledTimer(timeInterval: 1800, target: self,
     selector: #selector(applicationDidFinishLaunching(_:)), userInfo: nil, repeats: true)
 
 
