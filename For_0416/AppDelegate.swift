@@ -15,6 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
     // 메뉴 바 생성
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
+    let everyMinuteTimer = Timer.scheduledTimer(timeInterval: 3600, target: self,
+    selector: #selector(applicationDidFinishLaunching(_:)), userInfo: nil, repeats: true)
+
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         let dateFormatter = DateFormatter()
@@ -28,7 +31,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         button.imagePosition = NSControl.ImagePosition.imageLeft
         button.title = "+\(dday)"
         
-//         타이틀 표시 코드
 //        button.title = "For_0416"
         
         button.action = #selector(togglePopover(_:))
