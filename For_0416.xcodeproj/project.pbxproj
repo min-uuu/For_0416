@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD7B3424259C787D00EA85F1 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B3423259C787D00EA85F1 /* PopoverView.swift */; };
 		FD91A4E424DD4E3D00DBB301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD91A4E324DD4E3D00DBB301 /* AppDelegate.swift */; };
 		FD91A4E624DD4E3D00DBB301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD91A4E524DD4E3D00DBB301 /* ViewController.swift */; };
 		FD91A4E824DD4E3F00DBB301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD91A4E724DD4E3F00DBB301 /* Assets.xcassets */; };
 		FD91A4EB24DD4E3F00DBB301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD91A4E924DD4E3F00DBB301 /* Main.storyboard */; };
-		FD91A4F424DD52F500DBB301 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD91A4F324DD52F500DBB301 /* QuotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD7B3423259C787D00EA85F1 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		FD91A4E024DD4E3D00DBB301 /* For_0416.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = For_0416.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD91A4E324DD4E3D00DBB301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD91A4E524DD4E3D00DBB301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,7 +23,6 @@
 		FD91A4EA24DD4E3F00DBB301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD91A4EC24DD4E3F00DBB301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD91A4ED24DD4E3F00DBB301 /* For_0416.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = For_0416.entitlements; sourceTree = "<group>"; };
-		FD91A4F324DD52F500DBB301 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				FD91A4E324DD4E3D00DBB301 /* AppDelegate.swift */,
-				FD91A4F324DD52F500DBB301 /* QuotesViewController.swift */,
+				FD7B3423259C787D00EA85F1 /* PopoverView.swift */,
 				FD91A4E524DD4E3D00DBB301 /* ViewController.swift */,
 				FD91A4E724DD4E3F00DBB301 /* Assets.xcassets */,
 				FD91A4E924DD4E3F00DBB301 /* Main.storyboard */,
@@ -93,7 +93,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "민유";
 				TargetAttributes = {
 					FD91A4DF24DD4E3D00DBB301 = {
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD91A4E624DD4E3D00DBB301 /* ViewController.swift in Sources */,
-				FD91A4F424DD52F500DBB301 /* QuotesViewController.swift in Sources */,
+				FD7B3424259C787D00EA85F1 /* PopoverView.swift in Sources */,
 				FD91A4E424DD4E3D00DBB301 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +182,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -242,6 +243,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

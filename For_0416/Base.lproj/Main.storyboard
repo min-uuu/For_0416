@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--Quotes View Controller-->
+        <!--Popover View-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="QuotesViewController" id="XfG-lQ-9wD" customClass="QuotesViewController" customModule="For_0416" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopoverView" id="XfG-lQ-9wD" customClass="PopoverView" customModule="For_0416" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="286" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>

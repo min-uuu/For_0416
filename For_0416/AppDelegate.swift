@@ -15,20 +15,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
     // 메뉴 바 생성
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
-    let everyMinuteTimer = Timer.scheduledTimer(timeInterval: 1800, target: self,
-    selector: #selector(applicationDidFinishLaunching(_:)), userInfo: nil, repeats: true)
-
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
+    
+    // 디데이 생성
+    func MakeDday() -> Int {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let startDate = dateFormatter.date(from: "2014-04-16")!
         let currentDate = Date()
         let dday = Calendar.current.dateComponents([.day], from: startDate, to: currentDate).day!
-
+        return dday
+    }
+    
+    // 메인
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
       if let button = statusItem.button {
         button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
         button.imagePosition = NSControl.ImagePosition.imageLeft
+        let dday = MakeDday()
         button.title = "+\(dday)"
         
 //        button.title = "For_0416"
@@ -36,10 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         button.action = #selector(togglePopover(_:))
       }
         
-      popover.contentViewController = QuotesViewController.freshController()
-    }
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+      popover.contentViewController = PopoverView.freshController()
     }
     
     // 팝 오버
