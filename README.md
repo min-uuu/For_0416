@@ -9,8 +9,8 @@
 </p>
 <br>
 
-‘For_0416’은 맥의 메뉴 바에 세월호 노란리본 아이콘을 표시하는 앱입니다. \
-'Remember 0416’은 윈도10의 작업표시줄에 세월호 노란리본 아이콘을 표시하는 앱입니다.
+'[For_0416](https://github.com/min-uuu/For_0416/blob/master/For_0416.md)'(은 맥의 메뉴 바에 세월호 노란리본 아이콘을 표시하는 앱입니다. \
+'[Remember 0416](’https://github.com/min-uuu/For_0416/blob/master/Remember%200416.md')은 윈도10의 작업표시줄에 세월호 노란리본 아이콘을 표시하는 앱입니다.
 
 <br>
 
@@ -29,7 +29,7 @@ __그리고 그들은 절대 침몰하지 않을 것입니다.__
 [자세히 보기](https://github.com/min-uuu/For_0416/blob/master/For_0416.md)
 
 # Remember 0416
-![Remember 0416](https://github.com/Regentag/Remember0416/raw/master/02_toast.png)
+![Remember 0416](https://github.com/Regentag/Remember0416/raw/master/02_toast.png) \
 당신의 윈도우에 노란리본을 달아드립니다. Remember 0416 \
 [자세히 보기](https://github.com/min-uuu/For_0416/blob/master/Remember%200416.md)
 
