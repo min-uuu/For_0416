@@ -25,7 +25,7 @@
 ![메뉴](https://github.com/Regentag/Remember0416/blob/master/02.5_menu.png?raw=true)
 
 ## 설치방법
- 1. 오른쪽의 'Release' 링크에서 가장 최신 버전을 다운받아 주세요.
+ 1. [링크](https://github.com/min-uuu/For_0416/releases/tag/v4.0)에 들어가 exe파일을 다운받아 주세요.
  2. 설치파일을 실행하면 자동으로 시작 프로그램에 등록됩니다.
 
 ## 보안 관련
